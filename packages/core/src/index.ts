@@ -11,7 +11,7 @@ type Options = {
 }
 
 const startExecution = ({ input, output, zoom, profile }: Options) => {
-    const pyProg = spawn('python', ['gdal2tiles.py', '-l', `-p ${profile}`, `-z ${zoom}`, input, output], {
+    const pyProg = spawn('python', ['gdal2tiles.py', '-l', '-p', `${profile}`, '${profile}', ` ${zoom}`, input, output], {
         cwd: path.join(__dirname)
     });
 
