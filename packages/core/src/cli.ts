@@ -43,7 +43,7 @@ if (input && output) {
         profile: profile as ProfileOptions
     });
 } else {
-    console.info('请输入文件路径');
+    console.info('请输入输入和输出路径');
 }
 
 

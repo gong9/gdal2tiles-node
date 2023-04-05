@@ -1,6 +1,6 @@
 {
   "name": "gdal2tiles-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -9,7 +9,7 @@
     "package.json"
   ],
   "bin": {
-    "gdal2tiles-node": "dist/index.js"
+    "gdal2tiles-node": "dist/cli.js"
   },
   "scripts": {
     "dev": "father dev",
