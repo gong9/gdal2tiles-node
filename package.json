@@ -1,0 +1,32 @@
+{
+  "name": "template-monorepo-lib",
+  "version": "0.0.0",
+  "description": "template-monorepo-lib",
+  "scripts": {
+    "build": "pnpm -r build",
+    "prepare": "husky install",
+    "test": "pnpm -r test"
+  },
+  "keywords": [],
+  "authors": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "father": "^4.1.5",
+    "@umijs/lint": "^4",
+    "eslint": "^8.23.0",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.1",
+    "jest": "^27",
+    "@types/jest": "^27",
+    "typescript": "^4",
+    "ts-node": "^10",
+    "@umijs/test": "^4"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}
