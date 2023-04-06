@@ -8,7 +8,7 @@
 
  - 安装python3
  - 安装gdal
- - npx gdal2tiles-node@@latest -p=raster -z=0-5 -i=./demo.jpg -o=./opu
+ - `npx gdal2tiles-node@latest -p=raster -z=0-5 -i=./demo.jpg -o=./opu`
 
  推荐：使用conda管理python环境
 
